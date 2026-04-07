@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react'
+
 import { Link } from 'react-router-dom'
-import TerminalHero from '../components/TerminalHero'
 import ScrollReveal from '../components/ScrollReveal'
+import TerminalHero from '../components/TerminalHero'
 
 const STATS = [
   { target: 16, label: 'Semaines' },
@@ -57,7 +58,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-grid" />
         <div className="hero-content">
-          <div className="hero-badge">▶ FORMATION INTENSIVE — 16 SEMAINES</div>
+          <div className="hero-badge">▶ FORMATION INTENSIVE — 2 SEMAINES</div>
           <h1 className="hero-title">
             <span className="glitch">DEVENEZ UN</span>
             <br />

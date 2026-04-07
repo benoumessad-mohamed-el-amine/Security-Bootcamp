@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { modules } from '../data/modules'
 import ScrollReveal from '../components/ScrollReveal'
+import { modules } from '../data/modules'
 
 const DIFFICULTY_COLOR = {
   'Débutant': 'var(--accent)',
@@ -19,7 +19,7 @@ export default function Modules() {
           <h1>Programme Complet</h1>
           <p>11 modules couvrant l'intégralité du spectre cybersécurité — de 0 à expert opérationnel.</p>
           <div className="page-hero-meta">
-            <span className="meta-pill">16 semaines</span>
+            <span className="meta-pill">2 semaines</span>
             <span className="meta-pill">11 modules</span>
             <span className="meta-pill">60% pratique</span>
           </div>
@@ -54,7 +54,7 @@ export default function Modules() {
                   )}
                 </div>
                 <div className="module-footer">
-                  <span className="module-week">{mod.week}</span>
+                  <span className="module-day">{mod.day}</span>
                   <span className="module-link-arrow">→</span>
                 </div>
               </Link>
