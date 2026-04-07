@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <span className="prompt">root@cybersec:~$</span>
-        <span className="footer-cmd">echo "Tous droits réservés — CyberSec Bootcamp 2025"</span>
+        <span className="footer-cmd">echo "Tous droits réservés — CyberSec Bootcamp 2026"</span>
         <span className="t-ok">✓</span>
       </div>
     </footer>
