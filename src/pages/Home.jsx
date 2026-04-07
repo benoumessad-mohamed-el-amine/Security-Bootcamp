@@ -5,7 +5,7 @@ import ScrollReveal from '../components/ScrollReveal'
 import TerminalHero from '../components/TerminalHero'
 
 const STATS = [
-  { target: 16, label: 'Semaines' },
+  { target: 14, label: 'Jours' },
   { target: 11, label: 'Modules' },
   { target: 40, label: 'Outils couverts' },
   { target: 60, label: '% Pratique' },
