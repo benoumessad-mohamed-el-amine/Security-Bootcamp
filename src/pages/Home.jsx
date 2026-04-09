@@ -73,6 +73,7 @@ export default function Home() {
               <span key={s.label}>
                 <StatCounter target={s.target} label={s.label} />
                 {i < STATS.length - 1 && <span className="stat-sep">|</span>}
+                ||                                        
               </span>
             ))}
           </div>
